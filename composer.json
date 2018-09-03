@@ -1,0 +1,17 @@
+{
+    "name": "troy/test",
+    "authors": [
+        {
+            "name": "Troy Settle",
+            "email": "troy.settle@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scanner\\": "classes/"
+        }
+    }
+}
